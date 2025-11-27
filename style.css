@@ -1,0 +1,98 @@
+
+body {
+    background-color: #0a1f38;
+    color: #f1d27b;
+    font-family: "Georgia", serif;
+}
+
+.nav-olimpica {
+    background-color: #061529;
+    border-bottom: 1px solid #caa24c;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #f1d27b !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 8px #f1d27b;
+}
+
+
+.hero {
+    padding: 80px 0;
+}
+
+
+.titulo-hero {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e1bb55;
+}
+
+.subtitulo-hero {
+    font-size: 1.6rem;
+    color: #caa24c;
+}
+
+.texto-hero {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.botao-hero {
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 2px solid #caa24c;
+}
+
+
+.hero-img {
+    width: 100%;
+    height: 350px; 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-opcao {
+    border: 2px solid #caa24c;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card-opcao:hover {
+    background-color: #142c4a;
+    transform: scale(1.05);
+}
+
+.card-opcao img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #caa24c;
+    margin-top: 50px;
+}
+
+col-md-5{
+    max-width: 100%;
+    height: auto;
+
+
+
+}

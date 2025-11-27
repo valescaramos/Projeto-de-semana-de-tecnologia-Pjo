@@ -1,0 +1,95 @@
+
+body {
+    background-color: #0f2235; 
+    color: #d6b56b;           
+    font-family: "Georgia", serif;
+    margin: 0;
+}
+
+
+.topbar {
+    background-color: #0f2235;
+    border-bottom: 2px solid #d6b56b;
+    padding: 15px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar .logo {
+    color: #d6b56b;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.topbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+}
+
+.topbar ul li a {
+    color: #d6b56b;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.topbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.cert-section {
+    max-width: 900px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #d6b56b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    color: #d6c289;
+    margin-bottom: 40px;
+}
+
+.cert-card {
+    background: #10263b;
+    padding: 25px;
+    border: 3px solid #d6b56b;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(214, 181, 107, 0.3);
+}
+
+.cert-card img {
+    width: 100%;
+}
+
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #d6b56b;
+    color: #0f2235;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #b8944c;
+    color: #ffffff;
+}
+

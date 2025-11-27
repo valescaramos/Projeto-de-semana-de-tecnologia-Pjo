@@ -1,0 +1,129 @@
+
+body {
+    background-color: #3f88e9;
+    color: #9b8e6d;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+
+
+
+
+.header {
+    background-color: #0f2747;
+    padding: 25px 0;
+    border-bottom: 3px solid #caa24c;
+    box-shadow: 0 0 15px rgba(255, 215, 100, 0.3);
+}
+
+.header h1 {
+    color: #e1bb55;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.header nav ul li a {
+    color: #f1d27b;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    padding-bottom: 3px;
+}
+
+.header nav ul li a:hover,
+
+.header nav ul li a.ativo {
+    color: #e1bb55;
+    border-bottom: 2px solid #e1bb55;
+}
+
+
+.titulo-pagina {
+    text-align: center;
+    color: #e1bb55;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px rgba(255, 215, 100, 0.4);
+}
+
+.texto-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    color: #f1d27b;
+}
+
+
+
+.card-deus {
+    background-color: #0f2747;
+    border: 2px solid #caa24c;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 215, 100, 0.2);
+    transition: 0.3s;
+}
+
+.card-deus:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 215, 100, 0.4);
+}
+
+.card-deus img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #caa24c;
+}
+
+.card-deus .card-body {
+    padding: 20px;
+}
+
+.card-deus h3 {
+    color: #e1bb55;
+    margin-bottom: 10px;
+}
+
+.card-deus p {
+    color: #f1d27b;
+}
+
+.card-deus .btn {
+    background-color: #e1bb55;
+    border: 2px solid #caa24c;
+    font-weight: bold;
+    color: #061529;
+}
+
+.card-deus .btn:hover {
+    background-color: #f1d27b;
+}
+
+
+
+.footer {
+    background-color: #0f2747;
+    color: #f1d27b;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 3px solid #caa24c;
+    margin-top: 60px;
+    box-shadow: 0 0 15px rgba(255, 215, 100, 0.2);
+}
